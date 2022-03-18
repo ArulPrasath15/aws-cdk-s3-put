@@ -1,0 +1,23 @@
+{
+  "name": "assignment-6",
+  "version": "0.1.0",
+  "bin": {
+    "assignment-6": "bin/assignment-6.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.3.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.3.0",
+    "aws-sdk": "^2.1048.0",
+    "constructs": "^10.0.0",
+    "object-to-csv": "^1.0.5",
+    "objects-to-csv": "^1.3.6"
+  }
+}
